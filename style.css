@@ -42,7 +42,7 @@ img {
     display: block;
 }
 
-/* header styling */
+/* Header Stylings */
 
 .header_wrapper {
     max-width: 1700px;
@@ -156,5 +156,32 @@ header i {
     font-weight: 600;
     line-height: 29px;
     color:#000000;
+}
 
+/* Friends Section Styling */
+
+.friends {
+    background-color:#C3D3CB;
+    padding: 50px;
+}
+
+.friends img {
+    float:left;
+    width: 33%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.friends h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #152d20;
+    text-align: center;
+    width: 40%;
+    float: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: 30%;
 }
