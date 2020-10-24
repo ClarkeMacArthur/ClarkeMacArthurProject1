@@ -305,9 +305,13 @@ header i {
 
 .animal_bond_text {
     width: 40%;
-    float:right;
-    clear:right;
+    float: right;
+    clear: right;
     
+}
+
+.animal_bond img {
+    display: none;
 }
 
 /* Contact Stylings */
@@ -505,6 +509,37 @@ footer p{
 
 @media (max-width: 1150px) {
 
+    .story figure,
+    .suzie_story {
+        float: none;
+        width:50%;
+        margin-left:20%;
+    }
+
+    .story figure {
+        margin-bottom: 70px;
+    }
+
+    .friends h2 {
+        width: 50%;
+        margin-left:25%;
+    }
+
+    .animal_spotlight {
+        margin-left: 5%;
+        padding-left:0;
+    }
+
+    .events {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .merch {
+        margin-right: 0;
+        padding-right:0;
+    }
+
     .zebra_facts {
         background-image: none;
         padding-top: 0;
@@ -519,8 +554,8 @@ footer p{
     }
 
     .zebra_facts h2{
-        width: 40%;
-        margin-left: 30%;
+        width: 43%;
+        margin-left: 29%;
         margin-top: 50px;
     }
 
@@ -529,6 +564,46 @@ footer p{
         margin-left:10%;
     }
 
+    .animal_bond {
+        background-image: none;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        text-align:center;
+    }
+    
+    .animal_bond_text{
+        float:none;
+        clear:none;
+        width: 100%
+    }
 
+    .animal_bond img{
+        display: block;
+        margin-top:0;
+        width: 100%;
+    }
 
+    .animal_bond h2{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+
+    .animal_bond p{
+        width: 75%;
+        margin-left:10%;
+    }
+
+    .contact_nav {
+        margin-left: 29%;
+    }
+
+    .subscribe {
+        margin-left: 27%;
+    }
+
+    .contact_info {
+        margin-left: 36%;
+    }
 }
