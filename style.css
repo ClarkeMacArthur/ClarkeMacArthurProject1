@@ -325,7 +325,7 @@ header i {
 
 .subscribe {
     float:left;
-    margin-left: 16%;
+    margin-left: 20%;
     color:#FCFCFC;
     text-align: center;
     padding-top: 70px;
@@ -344,7 +344,10 @@ header i {
     font-weight: 300;
     float:left;
     display:block;
+    text-indent: 30px;
 }
+
+
 
 .subscribe button {
     background-color: #000000;
@@ -369,3 +372,17 @@ header i {
     padding-top: 60px;
 }
 
+/* Footer Styling */
+
+footer {
+    background-color: #000000;
+    padding: 10px;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #FCFCFC;
+    text-align:center;
+    font-size: 2rem;
+    font-weight:300;
+}
