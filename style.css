@@ -6,7 +6,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 *, *:before, *:after {box-sizing: inherit}
 
-.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+.sr_only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
 /* General Styling */
 * {
@@ -185,3 +185,40 @@ header i {
     margin-bottom: 80px;
     margin-left: 30%;
 }
+
+/* Icon Banner Stylings  */
+
+.icon_banner {
+    background-color: #152d20;
+    padding: 0px;
+}
+
+.icon_banner i {
+    color: #FCFCFC;
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+
+.icon_banner p {
+    font-size: 4rem;
+    color: #FCFCFC;
+    font-family:'Cormorant Garamond', serif;
+    text-transform: uppercase;
+
+}
+
+.icon_banner ul li {
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 0 60px;
+}
+
+.icon_banner span{
+    display: block;
+}
+
+.icon_banner ul:first-child {
+    margin-left: 5%;
+}
+
