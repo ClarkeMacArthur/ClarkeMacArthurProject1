@@ -309,13 +309,14 @@ header i {
 
 .contact {
     background-color: #152d20;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .contact h2 {
     font-family:'Cormorant Garamond', serif;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -382,7 +383,7 @@ header i {
     float:right;
     color:#FCFCFC;
     text-align: right;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 /* Footer Styling */
