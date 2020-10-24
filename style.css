@@ -222,3 +222,71 @@ header i {
     margin-left: 5%;
 }
 
+/* Blog Stylings */
+
+.blog h2 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #152d20;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+.blog p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.blog a {
+    background-color: #152d20;
+    padding: 15px 30px;
+    color: #FCFCFC;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+/* Zebra Facts Stylings */
+
+.zebra_facts {
+    background-image: url(./Assets/image-7.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.zebra_facts h2{
+    width: 30%;
+    
+}
+
+.zebra_facts p{
+    width: 45%;
+
+}
+/* Animal Bond Stylings */
+
+.animal_bond {
+    background-image: url(./Assets/image-2.jpg);
+    background-position: left;
+        background-repeat: no-repeat;
+    background-size: 50%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.animal_bond_text {
+    width: 40%;
+    float:right;
+    clear:right;
+    
+}
