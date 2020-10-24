@@ -86,8 +86,9 @@ header nav li {
 nav li a{
     color: #FCFCFC;
     font-family: 'Cormorant Garamond', serif;
-    font-size:3rem;
+    font-size:2.2rem;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 header i {
@@ -290,3 +291,81 @@ header i {
     clear:right;
     
 }
+
+/* Contact Stylings */
+
+.contact {
+    background-color: #152d20;
+    padding: 50px;
+}
+
+.contact h2 {
+    font-family:'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.contact_nav {
+    float:left;
+    padding-top: 70px;
+}
+
+.contact_nav ul li {
+    margin-bottom:10px;
+}
+
+.subscribe {
+    float:left;
+    margin-left: 16%;
+    color:#FCFCFC;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.subscribe p {
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    width: 500px;
+    height: 50px;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    float:left;
+    display:block;
+}
+
+.subscribe button {
+    background-color: #000000;
+    font-family:'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FCFCFC;
+    margin: 0;
+    padding: 11px 30px;
+    display: block;
+    float:left;
+    border: none;
+}
+
+
+.contact_info {
+    float:right;
+    color:#FCFCFC;
+    text-align: right;
+    padding-top: 60px;
+}
+

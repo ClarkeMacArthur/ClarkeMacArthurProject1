@@ -111,6 +111,8 @@
         <div class="animal_bond">
             <div class="wrapper clearfix">
                 <div class="animal_bond_text">
+                    <!-- <img src="./Assets/image-2.jpg"
+                    alt="A close-up image of a very cute brown tabby cat giving their human a high five."> -->
                     <h2>The Bond Between Animals and Humans</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto perferendis qui veniam sapiente
                         ab
@@ -125,8 +127,8 @@
         </div>
     </section>
     <section class="contact">
-        <div class="wrapper">
-            <nav>
+        <div class="wrapper clearfix">
+            <nav class="contact_nav">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Blog</a></li>
@@ -134,17 +136,21 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <h2>Stay Updated</h2>
-            <p>Subscribe to our newsletter to stay updated.</p>
-            <form>
-                <label for="email" class="sr-only">email address</label>
-                <input type="email" placeholder="email address">
-                <button type="submit">Subscribe</button>
-            </form>
-            <h2>Contact</h2>
-            <p>info@email.com | 123-456-7890</p>
-            <p>123 some road, Toronto, ON</p>
-            <p>A5A 5A5, Canada</p>
+            <div class="subscribe">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <form class="clearfix">
+                    <label for="email" class="sr_only" required="">email address</label>
+                    <input type="email" placeholder="email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="contact_info">
+                <h2>Contact</h2>
+                <p>info@email.com | 123 - 456 - 7890</p>
+                <p>123 some road, Toronto, ON</p>
+                <p>A5A 5A5, Canada</p>
+            </div>
         </div>
     </section>
     <footer>
