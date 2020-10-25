@@ -424,7 +424,7 @@ footer p{
 
     .suzie_story {
         margin-right: 15px;
-        width: 50%;
+        width: 60%;
     }
 
     .zebra_facts {
@@ -685,4 +685,65 @@ footer p{
         margin-left: 26%;
     }
 
+}
+
+@media (max-width: 630px) {
+
+    .story {
+        padding: 70px 0;
+    }
+
+    .story figure {
+        width: 80%;
+        margin-left:10%;
+        margin-bottom: 50px;
+    }
+
+    .suzie_story {
+        width: 80%;
+        margin-right: 0;
+        margin-left: 10%;
+    }
+
+    .suzie_story a {
+        margin-left:20%;
+    }
+
+    .friends h2 {
+        font-size: 4.3rem;
+        margin-left: 10%;
+        width:80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .friends img {
+        margin-bottom: 40px;
+    }
+
+    .zebra_facts h2 {
+        width: 68%;
+        margin-left: 15%;
+    }
+
+    .animal_bond h2 {
+        width: 78%;
+        margin-left: 11%;
+    }
+
+    .contact_nav {
+        margin-left: 10%;
+    }
+
+    .contact_nav ul li {
+        margin: 0 10px;
+    }
+
+        .subscribe input, .subscribe button {
+        width: 425px;
+    }
+}
+
+@media (max-width: 500px) {
+    
 }
