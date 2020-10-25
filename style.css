@@ -461,6 +461,8 @@ footer p{
 
 
 @media (max-width:1330px) {
+
+    
     
     .events {
         padding-left: 5%;
@@ -606,4 +608,23 @@ footer p{
     .contact_info {
         margin-left: 36%;
     }
+}
+
+@media (max-width: 860px) {
+    .subscribe input, .subscribe button {
+        width: 450px;
+    }
+
+        .contact_nav {
+        margin-left: 15%;
+    }
+
+    .subscribe {
+        margin-left: 17%;
+    }
+
+    .contact_info {
+        margin-left: 26%;
+    }
+
 }
