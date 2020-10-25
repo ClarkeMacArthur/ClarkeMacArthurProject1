@@ -254,6 +254,7 @@ header i {
     font-size: 2rem;
     font-weight: 300;
     padding-bottom: 60px;
+    line-height:29px;
 }
 
 .blog a {
@@ -514,7 +515,7 @@ footer p{
     .story figure,
     .suzie_story {
         float: none;
-        width:50%;
+        width:60%;
         margin-left:20%;
     }
 
@@ -540,6 +541,10 @@ footer p{
     .merch {
         margin-right: 0;
         padding-right:0;
+    }
+
+    .sr_only p {
+        display:none;
     }
 
     .zebra_facts {
@@ -611,6 +616,59 @@ footer p{
 }
 
 @media (max-width: 860px) {
+    
+    .suzie_story h2 {
+        font-size: 4rem;
+    }
+
+    .friends h2 {
+        width:70%;
+        margin-left: 15%;    
+    }
+
+    .friends img{
+        padding: 10px;
+        width: 50%;
+    }
+
+    .macaw {
+        display:none;
+    }
+
+    .friends {
+        padding:20px
+    }
+
+    .animal_spotlight {
+        float: none;
+        padding: 0 0 10px 0;
+        margin: 0;
+    }
+
+    .events {
+        float:none;
+        padding: 70px 0;
+        margin: 0;
+    }
+
+    .merch {
+        float: none;
+        padding: 0 0 10px 0; 
+        margin: 0;
+    }
+
+    .zebra_facts h2 {
+        font-size: 3rem;
+        width:50%;
+        margin-left: 25%;
+    }
+
+    .animal_bond h2{
+        font-size: 3rem;
+        width: 57%;
+        margin-left: 22%;
+    }
+    
     .subscribe input, .subscribe button {
         width: 450px;
     }
