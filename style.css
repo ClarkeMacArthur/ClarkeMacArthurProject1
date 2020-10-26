@@ -422,10 +422,16 @@ footer p{
         
     }
 
+    .story {
+        padding: 100px;
+    }
+
+
     .suzie_story {
         margin-right: 15px;
         width: 60%;
     }
+
 
     .zebra_facts {
         padding: 50px;
@@ -463,7 +469,9 @@ footer p{
 
 @media (max-width:1330px) {
 
-    
+    .suzie_story {
+        width: 70%;
+    }
     
     .events {
         padding-left: 5%;
@@ -739,11 +747,150 @@ footer p{
         margin: 0 10px;
     }
 
-        .subscribe input, .subscribe button {
+    .subscribe {
+        margin-left:10%;
+
+    }
+
+    .subscribe input, .subscribe button {
         width: 425px;
     }
+
+.contact_info {
+    margin-left: 20%;
+}
+
 }
 
 @media (max-width: 500px) {
+
+    .suzie_story h2 {
+        font-size: 3.3rem;
+    }
+
+    .suzie_story p {
+        font-size: 1.8rem;
+    }
+
+
+    .friends {
+        padding: 20px 10px;
+    }
+
+    .friends h2 {
+        font-size: 4rem;
+        width: 100%;
+        margin-left: 1%;
+    }
+
+    .friends img {
+        padding: 5px;
+    }
+
+    .zebra_facts {
+        padding-bottom: 70px;
+    }
+    .zebra_facts h2 {
+        font-size: 2.3rem;
+        width: 77%;
+        margin-left: 10%;
+    }
+
+    .zebra_facts p {
+        font-size: 1.8rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .animal_bond {
+        padding-bottom: 70px;
+    }
+
+    .animal_bond h2 {
+        font-size: 2.3rem;
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+
+    .animal_bond p {
+        font-size: 1.8rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact_nav {
+        margin-left:8%;
+    }
+
+    .contact_nav ul li {
+        margin: 0 8px;
+    }
+
+    .contact_nav ul li a {
+        font-size: 1.8rem;
+
+    }
+
+    .contact h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact p{
+        font-size: 1.6rem;
+    }
+
+    .subscribe {
+        margin-left: 10%;
+    }
+
+    .subscribe input, .subscribe button {
+        width: 325px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+    .suzie_story h2 {
+        font-size: 3.3rem;
+    }
+
+    .contact_nav {
+        margin-left: 8%;
+    }
+
+    .contact_nav ul li {
+        margin: 0 5px;
+    }
+
+    .subscribe {
+        margin-left: 8%;
+    }
+
+    .subscribe input, .subscribe button {
+        width: 300px;
+    }
+
+    .contact_info {
+        margin-left: 18%;
+    }
+
+}
+
+@media (max-width: 350px) {
     
+    .contact_nav {
+        margin-left: 1%;
+    }
+
+    .subscribe {
+        margin-left: 3%;
+    }
+
+    .contact_info {
+        margin-left: 10%;
+    }
+
 }
