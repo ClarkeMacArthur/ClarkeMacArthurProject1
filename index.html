@@ -17,30 +17,43 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <div class="wrapper clearfix">
             <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                <label for="toggle">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr_only">Menu</span>
+                </label>
+                <input type="checkbox" id="toggle" name="toggle" />
+                <ul class="hamburger_menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <h1>Animal Refuge</h1>
             <div class="socials clearfix">
                 <ul>
                     <li>
-                        <i class="fab fa-instagram"></i>
+                        <a href="http://www.instagram.com">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
-                        <i class="fab fa-facebook-f"></i>
+                        <a href="http://wwww.facebook.com">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </li>
                     <li>
-                        <i class="fab fa-snapchat-ghost"></i>
+                        <a href="http://www.snapchat.com">
+                            <i class="fab fa-snapchat-ghost"></i>
+                        </a>
                     </li>
                     <li>
-                        <i class="fab fa-twitter"></i>
+                        <a href="http://www.twitter.com">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section class="friends">
+    <section class="friends" id="gallery">
         <div class="wrapper clearfix">
             <h2>Some of our Friends</h2>
             <img src="./Assets/image-5.jpg"
@@ -75,48 +88,59 @@
             <img src="./Assets/image-4.jpg"
                 alt="a white sheep faces the camera. More sheep in a field are seen out of focus in the background.">
             <img src="./Assets/image-3.jpg"
-                alt="a Blue and Gold Macaw perched on a branch casually glances at the camera while eating a walnut, holding it in one foot." class="macaw">
+                alt="a Blue and Gold Macaw perched on a branch casually glances at the camera while eating a walnut, holding it in one foot."
+                class="macaw">
         </div>
     </section>
     <section class="icon_banner">
         <div class="wrapper clearfix">
-                <div class="animal_spotlight">
+            <div class="animal_spotlight">
+                <a href="https://www.nationalgeographic.com/animals/mammals/c/clouded-leopard/">
                     <i class="fas fa-paw"></i>
-                    <p>Animal <span>Spotlight<span></p>
-                </div>
-                <div class="events">
+                </a>
+                <p>Animal <span>Spotlight<span></p>
+            </div>
+            <div class="events">
+                <a href="https://www.torontozoo.com/events">
                     <i class="fas fa-calendar-check"></i>
-                    <p>Events</p>
-                </div>
-                <div class="merch">
+                </a>
+                <p>Events</p>
+            </div>
+            <div class="merch">
+                <a href="https://shop.wwf.ca">
                     <i class="fas fa-shopping-bag"></i>
-                    <p>Merch</p>
-                </div>
+                </a>
+                <p>Merch</p>
+            </div>
             </ul>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="zebra_facts ">
             <div class="wrapper clearfix">
-                <p class="sr_only">There is a background image along with this text of two zebras side by side standing in tall brush near a forest. One on the right is facing the camera, the other has it's
-                rear to the camera.</p>
+                <p class="sr_only">There is a background image along with this text of two zebras side by side standing
+                    in tall brush near a forest. One on the right is facing the camera, the other has it's
+                    rear to the camera.</p>
                 <img src="./Assets/image-7.jpg"
-                    alt="two zebras side by side standing in tall brush near a forest. One on the right is facing the camera, the other has it's rear to the camera."> 
+                    alt="two zebras side by side standing in tall brush near a forest. One on the right is facing the camera, the other has it's rear to the camera.">
                 <div class="zebra_facts_text">
 
                     <h2>Fascinating Facts About Zebras</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto perferendis qui veniam sapiente ab
-                        distinctio non neque quisquam culpa! Nulla et quas odit. Ut odit, doloremque reiciendis illum, illo
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto perferendis qui veniam sapiente
+                        ab
+                        distinctio non neque quisquam culpa! Nulla et quas odit. Ut odit, doloremque reiciendis illum,
+                        illo
                         totam dolores assumenda mollitia molestias magni officiis.</p>
                 </div>
-                <a href="">Read More</a>
+                <a href="https://kids.nationalgeographic.com/animals/mammals/zebra/">Read More</a>
             </div>
         </div>
         <div class="animal_bond">
             <div class="wrapper clearfix">
-                <p class="sr_only">There is a background image along with this text of a very cute brown tabby cat giving their human a high five.</p>
+                <p class="sr_only">There is a background image along with this text of a very cute brown tabby cat
+                    giving their human a high five.</p>
                 <img src="./Assets/image-2.jpg"
-                alt="A close-up image of a very cute brown tabby cat giving their human a high five.">
+                    alt="A close-up image of a very cute brown tabby cat giving their human a high five.">
                 <div class="animal_bond_text">
                     <h2>The Bond Between Animals and Humans</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto perferendis qui veniam sapiente
@@ -126,19 +150,19 @@
                         dolores
                         assumenda
                         mollitia molestias magni officiis.</p>
-                    <a href="">Read More</a>
+                    <a href="https://habri.org/">Read More</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="wrapper clearfix">
             <nav class="contact_nav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="subscribe">

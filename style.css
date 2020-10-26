@@ -30,6 +30,11 @@ ul {
 
 a {
     text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
 }
 
 figure {
@@ -66,9 +71,20 @@ h1 {
     line-height: 117px;
 }
 
+i.fa-bars{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+} 
+
 header nav {
     float:left;
-    margin-top:30px;
+    margin-top:15px;
 }
 
 header nav li {
@@ -76,7 +92,7 @@ header nav li {
     margin: 0 15px;
 }
 
-nav li a{
+header nav li a{
     color: #FCFCFC;
     font-family: 'Cormorant Garamond', serif;
     font-size:2.2rem;
@@ -336,6 +352,14 @@ header i {
     padding-top: 70px;
 }
 
+.contact_nav ul li a {
+    color: #FCFCFC;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:2.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .contact_nav ul li {
     margin-bottom:10px;
 }
@@ -417,17 +441,17 @@ footer p{
 
 @media (max-width: 1500px) {
     
-    header {
+    /* header {
         min-height: 60vh;
-    }
+    } */
 
     h1 {
-        margin-top:150px;
+        margin-top:180px;
     }
 
-    .socials {
+    /* .socials {
         margin-top: 70px;
-    }
+    } */
 
     figure {
         margin-left: 15px;
@@ -485,7 +509,7 @@ footer p{
 
     h1{
         padding:0;
-        margin-top:100px;
+        margin-top:130px;
     }
 
     .suzie_story {
@@ -540,7 +564,7 @@ footer p{
 @media (max-width: 1150px) {
 
     h1 {
-        margin-top:100px;
+        margin-top:180px;
         font-size:9rem;
         line-height:87px;
     }
@@ -650,6 +674,69 @@ footer p{
 
 @media (max-width: 860px) {
     
+    h1 {
+        font-size: 4rem;
+        line-height: 37px;
+        float: left;
+        margin: 20px 40px;
+        width: 30%;
+        text-align:left;
+    }
+
+
+    i.fa-bars{
+        visibility: visible;
+        text-shadow: 0px 0px 5px #152d20;
+        cursor: pointer;
+    }
+
+    .hamburger_menu {
+        background-color: #C3D3CB;
+        height: 50vh;
+        position: fixed;
+        top: 100;
+        right: -90%;
+        width: 90%;
+        transition: all 1s ease;
+        margin-top:50px;
+        /* z-index: 10; */
+    }
+
+    .hamburger_menu a {
+        color:#152d20;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        /* border-bottom: 2px solid grey; */
+        padding: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .hamburger_menu li{
+        float: left;
+        clear: both;
+        padding: 20px;
+    }
+
+    .hamburger_menu a:hover,
+    .hamburger_menu a:focus {
+        text-decoration: underline;
+    }
+
+    input[type="checkbox"]:checked + .hamburger_menu {
+        right:0;
+    }
+
+    input[type=checkbox] {
+    visibility: hidden;
+    position:fixed;
+    top: 0;
+    right: 0;
+} 
+
+
+    .socials {
+        display:none;
+    }
     .suzie_story h2 {
         font-size: 4rem;
     }
@@ -788,6 +875,10 @@ footer p{
 }
 
 @media (max-width: 500px) {
+
+    h1 {
+        margin: 10px 20px;
+    }
 
     .suzie_story h2 {
         font-size: 3.3rem;
