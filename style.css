@@ -8,6 +8,17 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr_only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+
+
+/* COLORS FROM STYLE GUIDE:
+White: #FCFCFC
+Black: #000000
+Light Green: #C3D3CB
+Dark Green: #152020
+ */
+
+
+
 /* General Styling */
 * {
     padding: 0;
